@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE537AB327B0551F00E0D3CC /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE537AB227B0551F00E0D3CC /* DetailsViewController.swift */; };
+		CE79498227AF8A5300D39C3D /* CoutryViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE79498027AF8A5300D39C3D /* CoutryViewCell.swift */; };
+		CE79498327AF8A5300D39C3D /* CoutryViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE79498127AF8A5300D39C3D /* CoutryViewCell.xib */; };
 		CE7F9CE9259EA40E005FEFC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7F9CE8259EA40E005FEFC6 /* AppDelegate.swift */; };
 		CE7F9CEB259EA40E005FEFC6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7F9CEA259EA40E005FEFC6 /* SceneDelegate.swift */; };
 		CE7F9CED259EA40E005FEFC6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7F9CEC259EA40E005FEFC6 /* ViewController.swift */; };
@@ -16,6 +19,9 @@
 		CE7F9D00259EA461005FEFC6 /* CountryCustomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7F9CFF259EA461005FEFC6 /* CountryCustomTests.swift */; };
 		CE7F9D0A259EA462005FEFC6 /* CountryCustomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7F9D09259EA462005FEFC6 /* CountryCustomUITests.swift */; };
 		CE7F9D0C259EA462005FEFC6 /* CountryCustomUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7F9D0B259EA462005FEFC6 /* CountryCustomUITestsLaunchTests.swift */; };
+		CEA94C7127B07615009D76E1 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA94C7027B07614009D76E1 /* Country.swift */; };
+		CEA94C7827B11E49009D76E1 /* DetailsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA94C7627B11E49009D76E1 /* DetailsViewCell.swift */; };
+		CEA94C7927B11E49009D76E1 /* DetailsViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEA94C7727B11E49009D76E1 /* DetailsViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE537AB227B0551F00E0D3CC /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		CE79498027AF8A5300D39C3D /* CoutryViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoutryViewCell.swift; sourceTree = "<group>"; };
+		CE79498127AF8A5300D39C3D /* CoutryViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoutryViewCell.xib; sourceTree = "<group>"; };
 		CE7F9CE5259EA40E005FEFC6 /* CountryCustom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountryCustom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE7F9CE8259EA40E005FEFC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE7F9CEA259EA40E005FEFC6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +58,9 @@
 		CE7F9D05259EA462005FEFC6 /* CountryCustomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountryCustomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE7F9D09259EA462005FEFC6 /* CountryCustomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCustomUITests.swift; sourceTree = "<group>"; };
 		CE7F9D0B259EA462005FEFC6 /* CountryCustomUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCustomUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CEA94C7027B07614009D76E1 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		CEA94C7627B11E49009D76E1 /* DetailsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewCell.swift; sourceTree = "<group>"; };
+		CEA94C7727B11E49009D76E1 /* DetailsViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailsViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +118,12 @@
 				CE7F9CF1259EA461005FEFC6 /* Assets.xcassets */,
 				CE7F9CF3259EA461005FEFC6 /* LaunchScreen.storyboard */,
 				CE7F9CF6259EA461005FEFC6 /* Info.plist */,
+				CE79498027AF8A5300D39C3D /* CoutryViewCell.swift */,
+				CE79498127AF8A5300D39C3D /* CoutryViewCell.xib */,
+				CE537AB227B0551F00E0D3CC /* DetailsViewController.swift */,
+				CEA94C7027B07614009D76E1 /* Country.swift */,
+				CEA94C7627B11E49009D76E1 /* DetailsViewCell.swift */,
+				CEA94C7727B11E49009D76E1 /* DetailsViewCell.xib */,
 			);
 			path = CountryCustom;
 			sourceTree = "<group>";
@@ -231,7 +249,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE79498327AF8A5300D39C3D /* CoutryViewCell.xib in Resources */,
 				CE7F9CF5259EA461005FEFC6 /* LaunchScreen.storyboard in Resources */,
+				CEA94C7927B11E49009D76E1 /* DetailsViewCell.xib in Resources */,
 				CE7F9CF2259EA461005FEFC6 /* Assets.xcassets in Resources */,
 				CE7F9CF0259EA40E005FEFC6 /* Main.storyboard in Resources */,
 			);
@@ -258,9 +278,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE79498227AF8A5300D39C3D /* CoutryViewCell.swift in Sources */,
+				CEA94C7827B11E49009D76E1 /* DetailsViewCell.swift in Sources */,
 				CE7F9CED259EA40E005FEFC6 /* ViewController.swift in Sources */,
 				CE7F9CE9259EA40E005FEFC6 /* AppDelegate.swift in Sources */,
 				CE7F9CEB259EA40E005FEFC6 /* SceneDelegate.swift in Sources */,
+				CEA94C7127B07615009D76E1 /* Country.swift in Sources */,
+				CE537AB327B0551F00E0D3CC /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
